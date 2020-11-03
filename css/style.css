@@ -83,3 +83,7 @@ ul {
 	flex-direction: column;
 	align-items: center;
 }
+
+#spnIteration {
+  margin-left: 0.2em;
+}
