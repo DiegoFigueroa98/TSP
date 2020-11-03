@@ -84,7 +84,7 @@
     };
 
     willy.register({
-        name: 'Branch And Bound',
+        name: 'Ramificación y Acotamiento',
         BranchNBound: BranchNBound
     });
 
