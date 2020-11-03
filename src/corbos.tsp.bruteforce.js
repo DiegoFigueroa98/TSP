@@ -99,7 +99,7 @@
     };
 
     willy.register({
-        name: 'Vanilla Brute Force',
+        name: 'Fuerza Bruta',
         BruteForce: BruteForce
     });
 
