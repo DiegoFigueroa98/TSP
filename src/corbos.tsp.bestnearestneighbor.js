@@ -53,7 +53,7 @@
     };
 
     willy.register({
-        name: 'Best Nearest Neighbor',
+        name: 'El vecino más cercano',
         BestNearestNeighbor: BestNearestNeighbor
     });
 
