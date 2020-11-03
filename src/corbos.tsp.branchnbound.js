@@ -84,7 +84,7 @@
     };
 
     willy.register({
-        name: 'Branch And Bound (not really)',
+        name: 'Branch And Bound',
         BranchNBound: BranchNBound
     });
 

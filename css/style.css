@@ -7,6 +7,7 @@
 body {
 	height: 100vh;
 	width: 100vw;
+	background:linear-gradient(135deg, #f8f8fc 0%,#f0f0f8 100%);
 }
 
 .main-wrapper {
@@ -22,6 +23,7 @@ body {
 	grid-column: 1/2;
 	grid-row: 1/2;
 	justify-self: center;
+	margin-bottom: 0.5em;
 }
 
 .presentation {
@@ -33,16 +35,51 @@ body {
 #thecanvas {
 	grid-column: 1/2;
 	grid-row: 2/3;
-	height: 60vh;
-	background-image: url('../mapa.jpg'); background-size: 100% 100%;  
+	background-image: url('../mexico.gif'); background-size: 100% 100%;
+	margin-bottom: 1.3em;
 }
 
 #divAlgo {
 	grid-column: 1/2;
 	grid-row: 3/4;
+	margin-bottom: 1em;
 }
 
 .metrics {
 	grid-column: 1/2;
 	grid-row: 4/5;
+	display: flex;
+}
+
+#ddlAlgo {
+	padding: 0.4em;
+}
+
+button:first-of-type {
+	margin-left: 2em !important;
+}
+
+button {
+	margin-left: 0.5em !important;
+}
+
+#spnPoint {
+	margin-left: 5em;
+}
+
+.logo {
+	width: 10vw;
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+}
+
+ul {
+	padding-left: 5em !important;
+}
+
+.presentation-wrapper {
+	grid-column: 2/-1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
